@@ -4,26 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta name="color-scheme" content="dark"> -->
     <title>CSS Course</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
-        <span class="header__title">Family</span>
-    <div class="header__links">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Invest</a>
-    </div>
+        <div class="header__title">Family</div>
+        <nav class="main-item">
+            <ul class="nav-items">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"> <a href="#">About</a></li>
+                <li class="nav-item"><a href="#">Invest</a></li>
+            </ul>
+        </nav>
   </header>
+
   <main>
-    <div class="grid__box">
+    <section class="intro" id="intro">
+        <h1 class="intro">THE GRID LAYOUT PAGE</h1>
+        <!-- <h2 class="intro">THE GRID LAYOUT PAGE</h2> -->
+    </section>
+    <section class="grid__section">
+        <div class="grid__box">
         <div class="box-1">Father</div>
         <div class="box-2">Mother</div>
         <div class="box-3">Daughter</div>
         <div class="box-4">Son</div>
         <div class="box-5">Asset</div>
     </div>
+    </section>
     <!-- <div class="container">
         <div class="box">
             ANIMATE
